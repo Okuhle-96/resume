@@ -1,0 +1,150 @@
+body {
+    font-family: Helvetica;
+    margin: 10px;
+}
+
+.row {
+    width: 80%;
+    margin: auto;
+}
+
+.burlywood {
+    background-color: grey;
+}
+
+.white {
+    /* background-color: white; */
+    margin: 20px;
+    padding: 20px;
+    /* height: 400px; */
+    width:600px;
+}
+
+.white h2 {
+    color: darkslategray;
+    border-left: 40px solid yellow;
+    padding-left: 15px;
+}
+
+.flex {
+    display: flex;
+}
+
+.darkgrey {
+    background-color: darkslategray;
+    display: flex;
+}
+
+#introduction {
+    height: 450px;
+    display: flex;
+}
+
+.container {
+    padding: 50px;
+    margin: auto;
+    width: 30%;
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+    margin-left:80px ;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+.name {
+    padding: 10px;
+}
+
+.name h1 {
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.name p {
+    color: yellow;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.introduction {
+    color: white;
+    margin: auto;
+    width: 50%;
+    padding: 40px;
+}
+
+.page-section {
+    display: flex;
+    width: 100%;
+}
+
+.skills {
+   /* color: white;  */
+}
+
+.menu {
+    background-color: grey;
+    padding: 40px;
+   /* / width: 50%;; */
+}
+
+.menu h1 {
+    color: yellow;
+    letter-spacing: 2px;
+}
+
+.menu ul {
+    display: block;
+    border-top: 15px solid darkslategrey;
+    margin-left: 100px;
+}
+
+ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.nav a {
+    text-decoration : none;
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+.nav a:hover {
+    color: darkslategrey;
+}
+
+#contact {
+    height: 200px;
+}
+
+.s-links {
+    display: flex;
+    margin: auto;
+    width: 40%;
+}
+
+.social-media h2 {
+    text-align: center;
+    color: White;
+    margin-bottom: 40px;
+}
+
+.s-links a {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    padding: 20px;
+}
