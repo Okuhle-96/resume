@@ -1,150 +1,148 @@
 body {
-    font-family: Helvetica;
-    margin: 10px;
+  font-family: Helvetica;
+  margin: 10px;
 }
 
 .row {
-    width: 80%;
-    margin: auto;
+  width: 80%;
+  margin: auto;
 }
 
 .burlywood {
-    background-color: grey;
+  background-color: grey;
 }
 
 .white {
-    /* background-color: white; */
-    margin: 20px;
-    padding: 20px;
-    /* height: 400px; */
-    width:600px;
+  /* background-color: white; */
+  margin: 20px;
+  padding: 20px;
+  /* height: 400px; */
+  width: 600px;
 }
 
 .white h2 {
-    color: darkslategray;
-    border-left: 40px solid yellow;
-    padding-left: 15px;
+  color: darkslategray;
+  border-left: 40px solid yellow;
+  padding-left: 15px;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .darkgrey {
-    background-color: darkslategray;
-    display: flex;
+  background-color: darkslategray;
+  display: flex;
 }
 
 #introduction {
-    height: 450px;
-    display: flex;
+  height: 450px;
+  display: flex;
 }
 
 .container {
-    padding: 50px;
-    margin: auto;
-    width: 30%;
+  padding: 50px;
+  margin: auto;
+  width: 30%;
 }
 
 .image img {
-    width: 200px;
-    height: 200px;
-    margin-left:80px ;
-    border: 10px solid white;
-    border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-left: 80px;
+  border: 10px solid white;
+  border-radius: 50%;
 }
 
 .name {
-    padding: 10px;
+  padding: 10px;
 }
 
 .name h1 {
-    font-weight: bolder;
-    color: white;
-    font-size: 30px;
-    margin-left: 20px;
-    text-align: center;
+  font-weight: bolder;
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+  text-align: center;
 }
 
 .name p {
-    color: yellow;
-    font-weight: bolder;
-    font-size: 20px;
-    margin-left: 20px;
-    letter-spacing: 2px;
-    text-align: center;
+  color: yellow;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-left: 20px;
+  letter-spacing: 2px;
+  text-align: center;
 }
 
 .introduction {
-    color: white;
-    margin: auto;
-    width: 50%;
-    padding: 40px;
+  color: white;
+  margin: auto;
+  width: 50%;
+  padding: 40px;
 }
 
 .page-section {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 .skills {
-   /* color: white;  */
+  /* color: white;  */
 }
 
 .menu {
-    background-color: grey;
-    padding: 40px;
-   /* / width: 50%;; */
+  background-color: grey;
+  padding: 40px;
+  /* / width: 50%;; */
 }
 
 .menu h1 {
-    color: yellow;
-    letter-spacing: 2px;
+  color: yellow;
+  letter-spacing: 2px;
 }
 
 .menu ul {
-    display: block;
-    border-top: 15px solid darkslategrey;
-    margin-left: 100px;
+  display: block;
+  border-top: 15px solid darkslategrey;
+  margin-left: 100px;
 }
 
 ul li {
-    list-style: none;
-    font-size: 20px;
-    padding: 10px;
+  list-style: none;
+  font-size: 20px;
+  padding: 10px;
 }
 
 .nav a {
-    text-decoration : none;
-    color: white;
-    font-weight: bolder;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
 }
 
-
-
 .nav a:hover {
-    color: darkslategrey;
+  color: darkslategrey;
 }
 
 #contact {
-    height: 200px;
+  height: 200px;
 }
 
 .s-links {
-    display: flex;
-    margin: auto;
-    width: 40%;
+  display: flex;
+  margin: auto;
+  width: 40%;
 }
 
 .social-media h2 {
-    text-align: center;
-    color: White;
-    margin-bottom: 40px;
+  text-align: center;
+  color: White;
+  margin-bottom: 40px;
 }
 
 .s-links a {
-    text-decoration: none;
-    color: black;
-    background-color: yellow;
-    padding: 20px;
+  text-decoration: none;
+  color: black;
+  background-color: yellow;
+  padding: 20px;
 }
