@@ -13,7 +13,7 @@ body {
 }
 
 .white {
-  /* background-color: white; */
+  background-color: white;
   margin: 20px;
   padding: 20px;
   /* height: 400px; */
@@ -85,10 +85,6 @@ body {
 .page-section {
   display: flex;
   width: 100%;
-}
-
-.skills {
-  /* color: white;  */
 }
 
 .menu {
