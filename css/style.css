@@ -3,21 +3,73 @@ body {
   margin: 10px;
 }
 
-.row {
-  width: 80%;
-  margin: auto;
-}
-
-.burlywood {
-  background-color: grey;
-}
-
 .white {
   background-color: white;
   margin: 20px;
   padding: 20px;
   /* height: 400px; */
   width: 600px;
+}
+
+#introduction {
+  height: 350px;
+  display: flex;
+}
+
+.darkgrey {
+  background-color: darkslategray;
+  display: flex;
+}
+
+.menu {
+  background-color: grey;
+  width: 400px;
+  height: 400px;
+  padding: 40px;
+ position: fixed;
+
+}
+
+.menu h1 {
+  color: yellow;
+
+  letter-spacing: 2px;
+}
+
+.menu ul {
+  display: block;
+  border-top: 15px solid darkslategrey;
+  margin-left: 100px;
+}
+
+ul li {
+  list-style: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+.nav a:hover {
+  color: yellow;
+}
+
+.burlywood {
+  background-color: grey;
+}
+
+.row {
+  width: 80%;
+  margin: auto;
+}
+
+.page-section {
+  display: flex;
+  width: 100%;
 }
 
 .white h2 {
@@ -27,16 +79,6 @@ body {
 }
 
 .flex {
-  display: flex;
-}
-
-.darkgrey {
-  background-color: darkslategray;
-  display: flex;
-}
-
-#introduction {
-  height: 450px;
   display: flex;
 }
 
@@ -75,6 +117,11 @@ body {
   text-align: center;
 }
 
+.space {
+  width: 400px;
+  background-color: gray;
+}
+
 .introduction {
   color: white;
   margin: auto;
@@ -82,43 +129,6 @@ body {
   padding: 40px;
 }
 
-.page-section {
-  display: flex;
-  width: 100%;
-}
-
-.menu {
-  background-color: grey;
-  padding: 40px;
-  /* / width: 50%;; */
-}
-
-.menu h1 {
-  color: yellow;
-  letter-spacing: 2px;
-}
-
-.menu ul {
-  display: block;
-  border-top: 15px solid darkslategrey;
-  margin-left: 100px;
-}
-
-ul li {
-  list-style: none;
-  font-size: 20px;
-  padding: 10px;
-}
-
-.nav a {
-  text-decoration: none;
-  color: white;
-  font-weight: bolder;
-}
-
-.nav a:hover {
-  color: darkslategrey;
-}
 
 #contact {
   height: 200px;
